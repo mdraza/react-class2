@@ -5,7 +5,7 @@ function UserForm() {
   const [password, setPassword] = useState("");
 
   function handlePass(e) {
-    console.log(e);
+    // console.log(e);
     setPassword(e.target.value);
   }
 

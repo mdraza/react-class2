@@ -2,6 +2,7 @@ import React from "react";
 import Counter from "./components/Counter";
 import Toggle from "./components/Toggle";
 import UserForm from "./components/UserForm";
+import HookUseEffect from "./components/HookUseEffect";
 
 function App() {
   // const name = "Muhammad Razaaullah";
@@ -12,14 +13,16 @@ function App() {
   };
   return (
     <div>
-      <Info info={myinfo} />
+      {/* <Info info={myinfo} />
       <Student>
         <h1>Name: Latif</h1>
         <p>Email: latif@gmail.com</p>
       </Student>
       <Counter />
       <Toggle />
-      <UserForm />
+      <UserForm /> */}
+      \
+      <HookUseEffect />
     </div>
   );
 }
