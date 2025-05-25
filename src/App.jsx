@@ -3,6 +3,8 @@ import Counter from "./components/Counter";
 import Toggle from "./components/Toggle";
 import UserForm from "./components/UserForm";
 import HookUseEffect from "./components/HookUseEffect";
+import Todo from "./components/Todo";
+import Counter2 from "./components/Counter2";
 
 function App() {
   // const name = "Muhammad Razaaullah";
@@ -21,8 +23,10 @@ function App() {
       <Counter />
       <Toggle />
       <UserForm /> */}
-      \
-      <HookUseEffect />
+      {/* <HookUseEffect /> */}
+      {/* <h1>Count: 0</h1>
+      <Counter2 /> */}
+      <Todo />
     </div>
   );
 }
