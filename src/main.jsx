@@ -2,12 +2,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import { CounterProvider } from "./components/context/Counter.jsx";
+import { InfoProvider } from "./context/InfoContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   // <StrictMode>
-  <CounterProvider>
+  <InfoProvider>
     <App />
-  </CounterProvider>
+  </InfoProvider>
   // </StrictMode>
 );
